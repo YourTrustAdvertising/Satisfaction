@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Профессиональная настройка и ведение рекламы в Google Ads. Увеличьте продажи вашего бизнеса с помощью таргетированной рекламы.">
+    <meta name="keywords" content="Google Ads, реклама, маркетинг, продвижение, таргетированная реклама">
+    <title>Google Ads Expert - Профессиональная настройка рекламы</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Google Ads Expert</div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="subtitle">Профессиональное продвижение</span>
+                    <h1>Реклама в Google Ads.<br>Эффективно. Измеримо.</h1>
+                    <p>Увеличьте продажи вашего бизнеса с помощью таргетированной рекламы</p>
+                </div>
+                <div class="hero-form">
+                    <div class="form-wrapper">
+                        <h2>Оставить заявку</h2>
+                        <p class="contact-subtitle">Получите бесплатную консультацию</p>
+                        <form id="leadForm" action="send.php" method="POST">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required placeholder="Ваше имя">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="telegram" name="telegram" placeholder="Ваш Telegram (например: @username)">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Ваш email">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" required placeholder="Расскажите о вашем проекте"></textarea>
+                            </div>
+                            <button type="submit">Отправить заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Наши услуги</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 6v6l4 2"></path>
+                            </svg>
+                        </div>
+                        <h3>Настройка рекламы</h3>
+                        <p>Профессиональная настройка рекламных кампаний в Google Ads с максимальной конверсией</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            </svg>
+                        </div>
+                        <h3>Ведение рекламы</h3>
+                        <p>Ежедневное управление и оптимизация рекламных кампаний для достижения лучших результатов</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 3v18h18"></path>
+                                <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"></path>
+                            </svg>
+                        </div>
+                        <h3>Аналитика</h3>
+                        <p>Подробные отчеты и аналитика эффективности рекламы с рекомендациями по улучшению</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2025 Google Ads Expert. Все права защищены.</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://t.me/Juciby" target="_blank" rel="noopener">Telegram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
